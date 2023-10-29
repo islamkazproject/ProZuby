@@ -1,0 +1,40 @@
+# Общие файлы и папки, которые следует игнорировать
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+.env
+
+# Log-файлы
+*.log
+
+# Файлы конфигурации
+.env
+
+# Зависимости и виртуальные окружения
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+*.egg
+node_modules/
+
+# Файлы с личной информацией или ключами
+*.sqlite3
+*.db
+*.csv
+*.xlsx
+
+# Кэш и временные файлы
+.cache/
+*.swp
+*.swo
+*.bak

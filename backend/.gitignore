@@ -1,0 +1,9 @@
+# Общие файлы и папки, которые следует игнорировать
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+.pytest_cache/
+.coverage
+htmlcov/
